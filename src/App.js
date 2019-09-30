@@ -7,8 +7,7 @@ import Home from './Home'
 import PhotoOfDay from './PhotoOfDay';
 import Amateur from './Amateur'
 import Mars from './Mars'
-// import Container from "react-bootstrap/Container";
-// import Button from "react-bootstrap/Button";
+
 
 const NASAHeader = styled.header`
 background:linear-gradient(to right, rgba(0,0,0,1), rgba(136,136,136,0.25));
