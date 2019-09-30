@@ -1,0 +1,62 @@
+.FirstText{
+    display:block;
+    height:90px;
+    width:420px;
+    background:linear-gradient(to top, rgba(0,0,0,.55), rgba(136,136,136,0.35));
+    margin:0 auto;
+    margin-top:100px;
+    color:white;
+    text-align:center;
+  }
+  .pod,.mars{
+    display:block;
+    height:45px;
+    width:220px;
+    background-color:rgba(0, 0, 0, 0.55);
+    margin:0 auto;
+    margin-top:125px;
+    color:white;
+    text-align:center;
+    border:1px whitesmoke solid;
+    
+  }
+  .pod:hover,.mars:hover{
+    background-color:rgb(136,136,136,0.55);
+    animation: bounce 1s infinite alternate;
+        }
+        
+        @keyframes bounce {
+          from {
+            transform: translateY(0px);
+          }
+          to {
+            transform: translateY(-25px);
+          }
+        }
+  
+  .podWords,.marsWords{
+    font-size:18px;
+  }
+  .title{
+    font-size:36px;
+  }
+  ul {
+    position:fixed;
+    top:0;
+    width:100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  li{
+  float:left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  }
+  
+  li:hover{
+    background-color:rgb(136,136,136);
+  }
