@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import styled from 'styled-components';
 import { Route, Link, Switch } from "react-router-dom"
 import './App.css';
-import Home from './Home'
-import PhotoOfDay from './PhotoOfDay';
-import Amateur from './Amateur'
-import Mars from './Mars'
+import Home from '../home/Home'
+import PhotoOfDay from '../photoOfDay/PhotoOfDay';
+import Amateur from '../amateur/Amateur'
+import Mars from '../mars/Mars'
 
 
 const NASAHeader = styled.header`

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './App'
+import '../app/App'
 class Amateur extends Component{
     constructor(props){
         super(props)
