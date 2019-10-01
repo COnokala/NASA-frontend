@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { Route, Link, Switch } from "react-router-dom"
 
+// modals code goes here
+
 class Home extends Component {
     constructor(props){
       super(props)
