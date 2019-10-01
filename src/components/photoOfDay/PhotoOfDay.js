@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 import { Link } from "react-router-dom"
+import './photoOfDay.css'
 
 
 const PhotoContainer = styled.section`
@@ -9,8 +10,8 @@ const PhotoContainer = styled.section`
     flex-wrap: wrap;
     justify-content: center;
     margin: 0 auto;
-    margin-top: 60px;
     padding: 10px;
+    margin-top:0;
 `
 const Photo = styled.img`
 
@@ -53,7 +54,7 @@ class PhotoOfDay extends Component{
             </Link>
         ))
         return( 
-        <div>
+        <div class="all">
             <PhotoContainer>
                 {photosView}
             </PhotoContainer>

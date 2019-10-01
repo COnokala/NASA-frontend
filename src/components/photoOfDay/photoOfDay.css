@@ -1,6 +1,6 @@
-.mainDisplay{
+.all{
     background-image:url('../../images/bg.jpg');
-    background-repeat: repeat-y;
-    height:100%;
+    background-size:cover;
+    background-repeat:repeat-y;
     padding-top:100px;
-}
+  }

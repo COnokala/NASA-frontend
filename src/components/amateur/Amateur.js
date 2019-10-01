@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 import { Link } from "react-router-dom"
+import './amateur.css'
 
 
 const PhotoContainer = styled.section`
@@ -9,7 +10,6 @@ const PhotoContainer = styled.section`
     flex-wrap: wrap;
     justify-content: center;
     margin: 0 auto;
-    margin-top: 60px;
     padding: 10px;
 `
 const Photo = styled.img`
@@ -51,7 +51,7 @@ componentDidMount() {
             </Link>
         ))
         return( 
-        <div>
+        <div className="agAll">
             <PhotoContainer>
                 {photosView}
             </PhotoContainer>

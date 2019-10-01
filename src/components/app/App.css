@@ -1,6 +1,7 @@
-body{
+.App{
   background-image:url('../../images/bg.jpg');
   background-size:cover;
+  height:100vh;
 }
 ul {
   position:fixed;

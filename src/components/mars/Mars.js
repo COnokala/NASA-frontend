@@ -4,18 +4,12 @@ import { Link } from 'react-router-dom'
 import styled from 'styled-components'
 import './Mars.css'
 
-// const Background = styled.div`
-// background-image:url('../../images/bg.jpg');
-// background-repeat:repeat-y;
-// `
-
 const PhotoContainer = styled.section`
     border-top: none;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     margin: 0 auto;
-    margin-top: 60px;
     padding: 10px;
 `
 const Photo = styled.img`
@@ -55,7 +49,7 @@ class Mars extends Component{
             </Link>
         ))
         return( 
-        <div>
+        <div className="mainDisplay">
             <PhotoContainer>
                 {photosView}
             </PhotoContainer>

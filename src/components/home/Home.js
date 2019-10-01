@@ -8,7 +8,7 @@ class Home extends Component {
      }
      render(){
        return(
-      <div className="App">
+      <div className="main">
          <div className="FirstText">
          <h1 className="title">Photos from the Great Beyond</h1>
       </div>
