@@ -12,19 +12,19 @@ body{
   color:white;
   text-align:center;
 }
-.pod,.mars,.amateur{
+.pod,.mars{
   display:block;
   height:45px;
   width:220px;
   background-color:rgba(0, 0, 0, 0.55);
   margin:0 auto;
-  margin-top:75px;
+  margin-top:125px;
   color:white;
   text-align:center;
   border:1px whitesmoke solid;
   
 }
-.pod:hover,.mars:hover,.amateur:hover{
+.pod:hover,.mars:hover{
   background-color:rgb(136,136,136,0.55);
   animation: bounce 1s infinite alternate;
       }
@@ -34,16 +34,12 @@ body{
           transform: translateY(0px);
         }
         to {
-          transform: translateY(-15px);
+          transform: translateY(-25px);
         }
       }
 
-.podWords,.marsWords,.amateurWords{
+.podWords,.marsWords{
   font-size:18px;
-}
-.amateurWords{
-  position:relative;
-  bottom:12px;
 }
 .title{
   font-size:36px;

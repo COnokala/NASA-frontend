@@ -5,6 +5,7 @@ import PropTypes from "prop-types";
 import injectSheet from "react-jss";
 import styles from "./IndexStyles";
 import SimpleModalLauncher from "./SimpleModalLauncher";
+import Image from "./images/bg.jpg";
 
 class Home extends Component {
     constructor(props){
@@ -16,15 +17,16 @@ class Home extends Component {
          <div className="FirstText">
          <h1 className="title">Photos from the Great Beyond</h1>
       </div>
-      <SimpleModalLauncher buttonLabel="Photo of the Day">
-      <div className="pod classes.textModal">
-        <h1 className="podWords">Photo of the Day</h1>
-      </div>
-      </SimpleModalLauncher>
-      <div className="mars">
+      <SimpleModalLauncher div className="pod" buttonLabel="Photo of the Day">
+        <h1 className="podWords"></h1>
+        <img src={require('./images/bg.jpg')} />
+        </SimpleModalLauncher>
+
+        <SimpleModalLauncher div className="mars" buttonLabel="Mars Rover Photos">
         <h1 className="marsWords">Mars Rover Photos</h1>
-      </div>
-      </div>
+        
+      </SimpleModalLauncher>
+     </div>
        )
       }
     }
