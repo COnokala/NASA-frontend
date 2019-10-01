@@ -7,7 +7,7 @@ class PhotoOfDay extends Component{
     render(){
         return( 
         <div>
-            <h1>WORDS</h1>
+            <h1>WORDS </h1>
         </div>)
     }
 }
