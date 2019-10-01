@@ -1,14 +1,62 @@
 import React, { Component } from 'react';
-import '../app/App'
+import styled from 'styled-components';
+import { Link } from "react-router-dom"
+
+
+const PhotoContainer = styled.section`
+    border-top: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 60px;
+    padding: 10px;
+`
+const Photo = styled.img`
+
+    border: 1px white solid;
+    height:300px;
+    width: 300px;
+    margin: 12px;
+
+    &:hover{
+        transform:scale(1.1);
+        z-index:1;
+        box-shadow: 7px 7px 5px rgba(208, 66, 255, 0.4);
+    }
+`
+
 
 class PhotoOfDay extends Component{
     constructor(props){
         super(props)
+        this.state = ({
+            photos: []
+        })
     }
+
+    componentDidMount() {
+        fetch("https://great-beyond-photos.herokuapp.com/apod").then(res=>res.json())
+        .then(res => {
+            console.log(res)
+            this.setState({photos:res})
+    })}
+
+
     render(){
+        const photosView = this.state.photos.map((photo, i) => (
+            <Link to={'/'} key={i}>
+                <Photo
+                    src={photo.hdurl}
+                    alt={photo.title}
+                />
+            </Link>
+        ))
         return( 
         <div>
-            <h1>WORDS </h1>
+            <PhotoContainer>
+                {photosView}
+            </PhotoContainer>
         </div>)
     }
 }
