@@ -15,7 +15,7 @@ const PhotoContainer = styled.section`
 `
 const Photo = styled.img`
 
-    border: 1px yellow solid;
+    border: 1px whitesmoke solid;
     height:300px;
     width: 300px;
     margin: 12px;
