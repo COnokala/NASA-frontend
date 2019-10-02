@@ -21,12 +21,13 @@
   width:220px;
   background-color:rgba(0, 0, 0, 0.55);
   margin:0 auto;
-  margin-top:75px;
+  margin-top:50px;
   color:white;
   text-align:center;
   border:1px whitesmoke solid;
   
 }
+
 .pod:hover,.mars:hover,.amateur:hover{
   background-color:rgb(136,136,136,0.55);
   animation: bounce 1s infinite alternate;
@@ -41,8 +42,23 @@
         }
       }
 
-.podWords,.marsWords,.amateurWords{
+.podWords,.marsWords,.amateurWords,.textWords{
   font-size:18px;
+}
+.text{
+  display:block;
+  height:135px;
+  width:790px;
+  background-color:rgba(0, 0, 0, 0.55);
+  margin:0 auto;
+  margin-top:50px;
+  color:white;
+  text-align:center;
+  border:1px whitesmoke solid;
+  }
+.textWords{
+  position:relative;
+  top:15px;
 }
 .amateurWords{
   position:relative;
