@@ -8,7 +8,7 @@ const backendURL = "https://great-beyond-photos.herokuapp.com/amateur"
 
 const StyledEditArticle = styled.article`
     background:linear-gradient(to bottom, rgba(0,0,0,.85), rgba(136,136,136,0.55));
-    border: 7px solid white;
+    border: 7px solid rgba(253, 255, 122, 1);
     border-radius:25px;
     display: flex;
     flex-direction: column;
@@ -32,7 +32,7 @@ const StyledForm = styled.form`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 50%;
+    width: 70%;
     `
 
 const StyledInput = styled.input`
@@ -43,7 +43,7 @@ margin: 10px;
 
 const StyledSubmitClick = styled.div`
     background:linear-gradient(to top, rgba(0,0,0,1), rgba(136,136,136,1));
-    border: 4px solid #262952;
+    border: 4px solid rgba(136,136,136,0.55);
     color: white;
     font-weight: bolder;
     margin: 10px;

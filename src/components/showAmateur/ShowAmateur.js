@@ -7,7 +7,7 @@ const photoInfoURL = "https://great-beyond-photos.herokuapp.com/amateur/"
 
 const StyledArticle = styled.article`
     background:linear-gradient(to bottom, rgba(0,0,0,.85), rgba(136,136,136,0.55));
-    border: 3px solid #F9D31C;
+    border: 7px solid rgba(253, 255, 122, 1);
     border-radius:25px;
     display: flex;
     justify-content: center;
@@ -43,19 +43,18 @@ const StyledInfoField = styled.span`
 `
 
 const StyledChangeKeys = styled.section`
-    background: rgb(161,161,161);
-    background: linear-gradient(180deg, 
-                rgba(161,161,161,1) 0%, 
-                rgba(225,21,43,1) 0%, 
-                rgba(149,22,33,1) 53%);
-    border: 4px solid #262952;
+    background:linear-gradient(to top, rgba(0,0,0,1), rgba(136,136,136,1));
+    border: 4px solid rgba(136,136,136,0.55);
     color: white;
     font-weight: bolder;
     margin: 10px;
     padding: 3px;
     width: 250px;
     text-align: center;
-    text-shadow: 1px 1px 1px black;
+    &:hover{
+        transform:scale(1.1);
+        z-index:1;
+        box-shadow: 5px 5px 5px 5px rgba(208, 66, 255, 0.4);}
 `
 
 export default class ShowPhoto extends Component {
