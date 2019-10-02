@@ -1,12 +1,15 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 import { Link } from "react-router-dom"
+import './amateur-create.css'
 
 const backendURL = "https://great-beyond-photos.herokuapp.com/amateur"
 
 
 const StyledEditArticle = styled.article`
+    background:linear-gradient(to bottom, rgba(0,0,0,.85), rgba(136,136,136,0.55));
     border: 7px solid white;
+    border-radius:25px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -20,6 +23,7 @@ align-content: center;
 display: flex;
 font-size: 30px;
 justify-content:space-between;
+margin-bottom:25px;
 `
  
 
@@ -28,21 +32,17 @@ const StyledForm = styled.form`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 70%;
+    width: 50%;
     `
 
 const StyledInput = styled.input`
-width: 50%;
+width: 60%;
 border: 2px solid black;
 margin: 10px;
 `
 
 const StyledSubmitClick = styled.div`
-    background: rgb(161,161,161);
-    background: linear-gradient(180deg, 
-                rgba(161,161,161,1) 0%, 
-                rgba(225,21,43,1) 0%, 
-                rgba(149,22,33,1) 53%);
+    background:linear-gradient(to top, rgba(0,0,0,1), rgba(136,136,136,1));
     border: 4px solid #262952;
     color: white;
     font-weight: bolder;
@@ -50,9 +50,11 @@ const StyledSubmitClick = styled.div`
     padding: 3px;
     width: 100px;
     text-align: center;
-    text-shadow: 1px 1px 1px purple;
-    `
-
+    &:hover{
+        transform:scale(1.1);
+        z-index:1;
+        box-shadow: 5px 5px 5px 5px rgba(208, 66, 255, 0.4);}
+`    
 class AmateurCreate extends Component {
     constructor(props) {
         super(props)
@@ -92,9 +94,10 @@ class AmateurCreate extends Component {
     render() {
         return (
             <div>
+                <div className="Container">
                 <StyledEditArticle>
                     <StyledHeader>
-                        Amateur Astronomers
+                        Submit a photo to out Amateur Astronomers Gallery
                     </StyledHeader>
                     <StyledForm>
                         <StyledInput 
@@ -138,6 +141,7 @@ class AmateurCreate extends Component {
                         </Link>
                     </StyledForm>
                 </StyledEditArticle>
+                </div>
             </div>
         )
     }
