@@ -1,17 +1,19 @@
 import React, { Component } from 'react'
 import styled from 'styled-components';
 import { Link } from "react-router-dom";
+import './ShowAmateur.css'
 
 const photoInfoURL = "https://great-beyond-photos.herokuapp.com/amateur/"
 
 const StyledArticle = styled.article`
-    background-color: black;
+    background:linear-gradient(to bottom, rgba(0,0,0,.85), rgba(136,136,136,0.55));
     border: 3px solid #F9D31C;
+    border-radius:25px;
     display: flex;
     justify-content: center;
     margin: 53px auto;
-    max-width: 800px;
-    padding: 20px;
+    max-width: 1300px;
+    margin-top:100px;
 `
 
 const StyledPhoto = styled.img`
@@ -19,7 +21,7 @@ const StyledPhoto = styled.img`
     max-height: 500px;
     margin: 10px;
     text-decoration: none;
-    width: auto;
+    max-width: 800px;
 `
 
 const StyledInfoSection = styled.section`
@@ -97,7 +99,7 @@ export default class ShowPhoto extends Component {
     render() {
         const photoInfo = this.state.photoInfo;
         return (
-            <>
+            <div className="container">
             <StyledArticle>
                     <StyledPhoto src={photoInfo.url} alt={photoInfo.title}/>
                     <StyledInfoSection>
@@ -116,7 +118,7 @@ export default class ShowPhoto extends Component {
                         </Link>
                     </StyledInfoSection>
             </StyledArticle>
-            </>
+            </div>
         )
     }
 }
