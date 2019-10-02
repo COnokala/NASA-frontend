@@ -6,12 +6,9 @@ import Home from '../home/Home'
 import PhotoOfDay from '../photoOfDay/PhotoOfDay';
 import Amateur from '../amateur/Amateur'
 import Mars from '../mars/Mars'
-<<<<<<< HEAD
 import AmateurCreate from '../amateur-create/Amateur-Create'
-=======
 import ShowPhoto from '../showPhoto/ShowPhoto'
 
->>>>>>> apodLanding
 
 const NASAHeader = styled.header`
 background:linear-gradient(to right, rgba(0,0,0,1), rgba(136,136,136,0.25));
@@ -61,11 +58,8 @@ class App extends Component {
         <Route path ="/PhotoOfTheDay" exact render = {props => <PhotoOfDay  {...props}/>}/>
         <Route path ="/Mars" exact render = {props => <Mars  {...props}/>}/>
         <Route path ="/Amateur" exact render = {props => <Amateur  {...props}/>}/>
-<<<<<<< HEAD
         <Route path ="/SubmitImage" exact render = {props => <AmateurCreate {...props}/>}/>
-=======
         <Route path ="/PhotoOfTheDay/:title" exact render = {props => <ShowPhoto {...props}/>}/>
->>>>>>> apodLanding
       </main>
       <NASAFooter/>
 
