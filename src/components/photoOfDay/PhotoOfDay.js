@@ -45,7 +45,7 @@ class PhotoOfDay extends Component{
 
     render(){
         const photosView = this.state.photos.map((photo, i) => (
-            <Link to={'/'} key={i}>
+            <Link to={`/PhotoOfTheDay/${photo.title}`} key={i}>
                 <Photo
                     src={photo.hdurl}
                     alt={photo.title}

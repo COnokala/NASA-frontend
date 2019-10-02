@@ -6,6 +6,7 @@ import Home from '../home/Home'
 import PhotoOfDay from '../photoOfDay/PhotoOfDay';
 import Amateur from '../amateur/Amateur'
 import Mars from '../mars/Mars'
+import ShowPhoto from '../showPhoto/ShowPhoto'
 
 
 const NASAHeader = styled.header`
@@ -53,6 +54,7 @@ class App extends Component {
         <Route path ="/PhotoOfTheDay" exact render = {props => <PhotoOfDay  {...props}/>}/>
         <Route path ="/Mars" exact render = {props => <Mars  {...props}/>}/>
         <Route path ="/Amateur" exact render = {props => <Amateur  {...props}/>}/>
+        <Route path ="/PhotoOfTheDay/:title" exact render = {props => <ShowPhoto {...props}/>}/>
       </main>
       <NASAFooter/>
 
