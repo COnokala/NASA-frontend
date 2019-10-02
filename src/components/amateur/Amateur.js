@@ -43,7 +43,7 @@ componentDidMount() {
 
     render(){
         const photosView = this.state.photos.map((photo, i) => (
-            <Link to={'/'} key={i}>
+            <Link to={`/Amateur/${photo.title}`} key={i}>
                 <Photo
                     src={photo.url}
                     alt={photo.title}

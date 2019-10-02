@@ -8,6 +8,9 @@ import Amateur from '../amateur/Amateur'
 import Mars from '../mars/Mars'
 import AmateurCreate from '../amateur-create/Amateur-Create'
 import ShowPhoto from '../showPhoto/ShowPhoto'
+import ShowAmateur from '../showAmateur/ShowAmateur'
+import UpdateImage from '../updateImage/UpdateImage'
+
 
 
 const NASAHeader = styled.header`
@@ -60,14 +63,10 @@ class App extends Component {
         <Route path ="/Amateur" exact render = {props => <Amateur  {...props}/>}/>
         <Route path ="/SubmitImage" exact render = {props => <AmateurCreate {...props}/>}/>
         <Route path ="/PhotoOfTheDay/:title" exact render = {props => <ShowPhoto {...props}/>}/>
+        <Route path ="/Amateur/:title" exact render = {props => <ShowAmateur {...props}/>}/>
+        <Route path ="/Amateur/:title/Edit" exact render = {props => <UpdateImage {...props}/>}/>
       </main>
       <NASAFooter/>
-
-      
-
-
-
-      
     </div>
      )
    }
