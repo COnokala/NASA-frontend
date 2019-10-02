@@ -22,23 +22,24 @@ width:100%;
 top:0;
 position:fixed;
 color:white;
-@media (max-width: 900px) {
+font-size:18px;
+@media (max-width: 1000px) {
+    font-size: 16px;
+  }
+  @media (max-width: 910px) {
     font-size: 14px;
   }
-  @media (max-width: 810px) {
+  @media (max-width: 850px) {
     font-size: 12px;
   }
-  @media (max-width: 730px) {
+  @media (max-width: 750px) {
     font-size: 10px;
   }
-  @media (max-width: 650px) {
+  @media (max-width: 670px) {
     font-size: 8px;
   }
-  @media (max-width: 560px) {
+  @media (max-width: 550px) {
     font-size: 6px;
-  }
-  @media (max-width: 470px) {
-    font-size: 4px;
   }
 `
 const NASAFooter = styled.footer`
