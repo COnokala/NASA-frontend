@@ -12,7 +12,7 @@ const StyledArticle = styled.article`
     justify-content: center;
     margin: 53px auto;
     max-width: 1300px;
-    margin-top:100px;
+    margin-top:30px;
 `
 
 const StyledPhoto = styled.img`
