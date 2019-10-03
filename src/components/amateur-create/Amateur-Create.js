@@ -143,6 +143,10 @@ class AmateurCreate extends Component {
                     </StyledForm>
                 </StyledEditArticle>
                 </div>
+                <div className="p p-1"></div>
+     <div className="p p-2"></div>
+     <div className="p p-3"></div>
+     <div className="p p-4"></div>
             </div>
         )
     }

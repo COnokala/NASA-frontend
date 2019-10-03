@@ -45,6 +45,10 @@ class Home extends Component {
       <div className="text">
       <h1 className="textWords">{this.state.description}</h1>
       </div>
+      <div className="p p-1"></div>
+     <div className="p p-2"></div>
+     <div className="p p-3"></div>
+     <div className="p p-4"></div>
       </div>
        )
      }
