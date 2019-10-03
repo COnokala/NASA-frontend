@@ -39,7 +39,7 @@ const StyledInfoSection = styled.section`
 `
 
 const StyledInfoField = styled.span`
-    color: #F9D31C;
+    color: rgba(253, 255, 122, 1);
     font-weight: bolder;
 `
 
