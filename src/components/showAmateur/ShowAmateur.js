@@ -110,10 +110,10 @@ export default class ShowPhoto extends Component {
                         <Link 
                             to={"/Amateur/"+photoInfo.title+"/Edit/"}
                             >
-                            <StyledChangeKeys>Edit Card</StyledChangeKeys>
+                            <StyledChangeKeys>Edit Photo</StyledChangeKeys>
                         </Link>
                         <Link to="/">
-                            <StyledChangeKeys onClick={this.deletePhoto}>Delete Card</StyledChangeKeys>
+                            <StyledChangeKeys onClick={this.deletePhoto}>Delete Photo</StyledChangeKeys>
                         </Link>
                     </StyledInfoSection>
             </StyledArticle>
