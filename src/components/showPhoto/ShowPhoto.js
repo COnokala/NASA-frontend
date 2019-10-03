@@ -41,6 +41,7 @@ const StyledInfoSection = styled.section`
 const StyledInfoField = styled.span`
     color: rgba(253, 255, 122, 1);
     font-weight: bolder;
+    
 `
 
 const StyledChangeKeys = styled.section`
