@@ -21,7 +21,7 @@ class Home extends Component {
      }
      displayMars(evt){
       evt.preventDefault();
-      this.setState({description: "Mars Rover Photo Gallery displays a collection og images taken from NASA's Mars Rovers. Enjoy a numnber of real photos of the fourth planet from the sun and see what the surface of another planet truly looks like"})
+      this.setState({description: "Mars Rover Photo Gallery displays a collection of images taken from NASA's Mars Rovers. Enjoy a numnber of real photos of the fourth planet from the sun and see what the surface of another planet truly looks like"})
     }
     displayAmateur(evt){
       evt.preventDefault();

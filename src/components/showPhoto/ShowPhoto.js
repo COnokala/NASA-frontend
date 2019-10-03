@@ -13,7 +13,8 @@ const StyledArticle = styled.article`
     justify-content: center;
     margin: 53px auto;
     max-width: 1300px;
-    margin-top:100px;
+    margin-top:20px;
+    max-height:800px;
 `
 
 const StyledPhoto = styled.img`
@@ -28,7 +29,7 @@ const StyledInfoSection = styled.section`
     color: white;
     display: flex;
     flex-direction: column;
-    font-size: 20px;
+    font-size: 12px;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
@@ -85,7 +86,7 @@ export default class ShowPhoto extends Component {
     render() {
         const photoInfo = this.state.photoInfo;
         return (
-            <div className="container">
+            <div className="container2">
             <StyledArticle>
                     <StyledPhoto src={photoInfo.hdurl} alt={photoInfo.title}/>
                     <StyledInfoSection>
