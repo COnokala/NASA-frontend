@@ -6,7 +6,7 @@ const photoInfoURL = "https://great-beyond-photos.herokuapp.com/rover/"
 
 const StyledArticle = styled.article`
     background:linear-gradient(to bottom, rgba(0,0,0,.85), rgba(136,136,136,0.55));
-    border: 3px solid #F9D31C;
+    border: 3px solid rgba(253, 255, 122, 1);
     border-radius:25px;
     display: flex;
     justify-content: center;
