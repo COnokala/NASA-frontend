@@ -97,7 +97,7 @@ class AmateurCreate extends Component {
                 <div className="Container">
                 <StyledEditArticle>
                     <StyledHeader>
-                        Submit a photo to out Amateur Astronomers Gallery
+                        Submit a photo to our Amateur Astronomers Gallery
                     </StyledHeader>
                     <StyledForm>
                         <StyledInput 
@@ -142,6 +142,10 @@ class AmateurCreate extends Component {
                     </StyledForm>
                 </StyledEditArticle>
                 </div>
+                <div className="p p-1"></div>
+      <div className="p p-2"></div>
+      <div className="p p-3"></div>
+      <div className="p p-4"></div>
             </div>
         )
     }
