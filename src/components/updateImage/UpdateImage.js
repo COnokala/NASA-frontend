@@ -59,7 +59,6 @@ export default class updateImage extends Component {
     super(props)
     this.state = {
       url: '',
-      title: '',
       author: '',
       description: ''
     }
@@ -111,13 +110,6 @@ export default class updateImage extends Component {
               type="text"
               placeholder="Web Address"
               value={this.state.url}
-              onChange={this.handleValueChange}
-            />
-            <StyledInput
-              name="title"
-              type="text"
-              placeholder="Title"
-              value={this.state.title}
               onChange={this.handleValueChange}
             />
             <StyledInput

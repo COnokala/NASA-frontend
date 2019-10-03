@@ -10,6 +10,7 @@ import AmateurCreate from '../amateur-create/Amateur-Create'
 import ShowPhoto from '../showPhoto/ShowPhoto'
 import ShowAmateur from '../showAmateur/ShowAmateur'
 import UpdateImage from '../updateImage/UpdateImage'
+import ShowRover from '../showRover/ShowRover'
 
 
 
@@ -81,6 +82,7 @@ class App extends Component {
         <Route path ="/" exact render = {props => <Home  {...props}/>}/>
         <Route path ="/PhotoOfTheDay" exact render = {props => <PhotoOfDay  {...props}/>}/>
         <Route path ="/Mars" exact render = {props => <Mars  {...props}/>}/>
+        <Route path ="/Mars/:id" exact render = {props => <ShowRover  {...props}/>}/>
         <Route path ="/Amateur" exact render = {props => <Amateur  {...props}/>}/>
         <Route path ="/SubmitImage" exact render = {props => <AmateurCreate {...props}/>}/>
         <Route path ="/PhotoOfTheDay/:title" exact render = {props => <ShowPhoto {...props}/>}/>

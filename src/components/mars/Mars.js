@@ -41,7 +41,7 @@ class Mars extends Component{
     })}
     render(){
         const photosView = this.state.photos.map((photo, i) => (
-            <Link to={'/'} key={i}>
+            <Link to={`/Mars/${photo.id}`} key={i}>
                 <Photo
                     src={photo.img_src}
                     alt={photo.rover.name}
