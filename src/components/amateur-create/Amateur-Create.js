@@ -16,6 +16,7 @@ const StyledEditArticle = styled.article`
     margin: 48px auto;
     max-width: 700px;
     padding: 40px;
+    margin-top:-20px;
 `
 const StyledHeader = styled.header`
 color: white;
