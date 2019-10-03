@@ -1,3 +1,16 @@
+**Name**: Photos from the Great Beyond, front-end
+
+**Description**: Our project serves as the front-end to a full-stack app that allows users to view a collection of photos originally hosted on NASA's API. Users can access some of NASA's "Photo of the Day" entries, as well as photos taken from NASA's Mars Rovers. In addition to this functionality, our app features an Amateur Astronomers gallery where users can upload their own images and view photos that have already been uploaded.
+
+![Preview of App](https://i.imgur.com/hAYs2xc.jpg)
+
+**Technologies**: This front-end was built mostly using React. The project also makes use of Styled Components, the React Router, and plain CSS.
+
+**Project Status**: This project was a group project created by students at a Software Engineering boot camp. This project may be revisited in the future to fix current bugs or implement new features.
+
+**Roadmap**: Possible fixes/additions for the future include fixing issue with text/photos spilling out of their containers when single images are being viewed, adding a signup/login feature, improving performance of the page
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
