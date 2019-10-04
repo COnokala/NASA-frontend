@@ -21,6 +21,10 @@ const StyledPhoto = styled.img`
     margin: 10px;
     text-decoration: none;
     max-width: 800px;
+    @media (max-width: 750px) {
+    height: 275px;
+    width:275px;
+  }
 `
 
 const StyledInfoSection = styled.section`
