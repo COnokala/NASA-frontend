@@ -29,7 +29,6 @@ const StyledPhoto = styled.img`
     height: 200px;
     width:200px;
     margin-top:60px;
-    padding:15px;
   }
 `
 
