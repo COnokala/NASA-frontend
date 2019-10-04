@@ -39,7 +39,7 @@ font-size:18px;
   @media (max-width: 670px) {
     font-size: 8px;
   }
-  @media (max-width: 550px) {
+  @media (max-width: 575px) {
     font-size: 6px;
   }
 `

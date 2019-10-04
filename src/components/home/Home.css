@@ -53,6 +53,9 @@
     position:relative;
     top:10px;
   }
+  .main{
+    padding-bottom:-100px;
+  }
 }
 
 .pod,.mars,.amateur{
