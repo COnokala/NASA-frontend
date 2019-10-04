@@ -16,7 +16,6 @@ const StyledArticle = styled.article`
     margin-top:40px;
     @media (max-width: 500px) {
     height: 400px;
-    width:400px;
   }
 `
 
@@ -54,10 +53,10 @@ const StyledInfoField = styled.span`
     color: rgba(253, 255, 122, 1);
     font-weight: bolder;
     @media (max-width: 950px) {
-    font-size:20px;
+    font-size:16px;
   }
   @media (max-width: 500px) {
-    font-size:16px;
+    font-size:12px;
   }
 `
 

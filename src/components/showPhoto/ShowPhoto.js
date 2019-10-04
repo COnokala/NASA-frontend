@@ -17,7 +17,6 @@ const StyledArticle = styled.article`
     max-height:800px;
     @media (max-width: 500px) {
     height: 400px;
-    width:400px;
   }
 `
 
@@ -54,7 +53,12 @@ const StyledInfoSection = styled.section`
 const StyledInfoField = styled.span`
     color: rgba(253, 255, 122, 1);
     font-weight: bolder;
-    
+    @media (max-width: 950px) {
+    font-size:16px;
+  }
+  @media (max-width: 500px) {
+    font-size:12px;
+  }
 `
 
 const StyledChangeKeys = styled.section`
