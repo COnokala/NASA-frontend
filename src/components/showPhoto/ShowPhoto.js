@@ -111,10 +111,10 @@ export default class ShowPhoto extends Component {
                     <StyledPhoto src={photoInfo.hdurl} alt={photoInfo.title}/>
                     <StyledInfoSection>
                         <section>
-                            <p><StyledInfoField>{"Title: "}</StyledInfoField>{photoInfo.title}</p>
-                            <p><StyledInfoField>{"Copyright: "}</StyledInfoField>{photoInfo.copyright}</p>
-                            <p><StyledInfoField>{"Date: "}</StyledInfoField>{photoInfo.date}</p>
-                            <p><StyledInfoField>{"Explanation: "}</StyledInfoField>{photoInfo.explanation}</p>
+                            <p className="paragraph"><StyledInfoField>{"Title: "}</StyledInfoField>{photoInfo.title}</p>
+                            <p className="paragraph"><StyledInfoField>{"Copyright: "}</StyledInfoField>{photoInfo.copyright}</p>
+                            <p className="paragraph"><StyledInfoField>{"Date: "}</StyledInfoField>{photoInfo.date}</p>
+                            <p className="paragraph"><StyledInfoField>{"Explanation: "}</StyledInfoField>{photoInfo.explanation}</p>
                         </section>
                     </StyledInfoSection>
                 </StyledArticle>

@@ -12,3 +12,9 @@
     min-height:0;
     overflow:auto;
   }
+  @media (max-width: 500px) {
+    .paragraph{
+margin:5px;
+font-size:10px;    }
+  }
+  
