@@ -72,12 +72,12 @@ const StyledChangeKeys = styled.section`
     width: 250px;
     text-align: center;
     @media (max-width: 950px) {
-    width: 125px;
-    font-size:12px;
+    width: 150px;
+    font-size:14px;
   }
   @media (max-width: 500px) {
-    width:75px;
-    font-size:10px;
+    width:100px;
+    font-size:12px;
   }
     &:hover{
         transform:scale(1.1);
