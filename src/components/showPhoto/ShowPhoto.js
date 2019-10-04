@@ -17,6 +17,7 @@ const StyledArticle = styled.article`
     max-height:800px;
     @media (max-width: 500px) {
     height: 400px;
+    width:400px;
   }
 `
 

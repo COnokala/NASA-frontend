@@ -16,6 +16,7 @@ const StyledArticle = styled.article`
     margin-top:40px;
     @media (max-width: 500px) {
     height: 400px;
+    width:400px;
   }
 `
 
