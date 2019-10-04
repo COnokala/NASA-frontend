@@ -48,6 +48,8 @@ const StyledInfoSection = styled.section`
     padding: 10px;
     text-shadow: 5px 1px 4px #3359A5;
     text-align: center;
+    padding-right:10px;
+    padding-left:10px;
 `
 
 const StyledInfoField = styled.span`
