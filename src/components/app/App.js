@@ -42,6 +42,9 @@ font-size:18px;
   @media (max-width: 575px) {
     font-size: 6px;
   }
+  @media (max-width: 475px) {
+    font-size: 4px;
+  }
 `
 const NASAFooter = styled.footer`
 background-color:rgba(0, 0, 0, 0.55);
