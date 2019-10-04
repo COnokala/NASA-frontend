@@ -98,7 +98,7 @@ class AmateurCreate extends Component {
                 <div className="Container">
                 <StyledEditArticle>
                     <StyledHeader>
-                        Submit a photo to out Amateur Astronomers Gallery
+                        Submit a photo to our Amateur Astronomers Gallery
                     </StyledHeader>
                     <StyledForm>
                         <StyledInput 
