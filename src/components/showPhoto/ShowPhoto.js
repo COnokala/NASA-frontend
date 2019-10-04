@@ -23,6 +23,15 @@ const StyledPhoto = styled.img`
     margin: 10px;
     text-decoration: none;
     max-width: 800px;
+    @media (max-width: 750px) {
+    height: 275px;
+    width:275px;
+  }
+  @media (max-width: 500px) {
+    height: 200px;
+    width:200px;
+    margin-top:60px;
+  }
 `
 
 const StyledInfoSection = styled.section`
