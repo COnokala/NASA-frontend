@@ -28,7 +28,8 @@ const StyledPhoto = styled.img`
   @media (max-width: 500px) {
     height: 200px;
     width:200px;
-    margin-top:50px;
+    margin-top:60px;
+    padding:15px;
   }
 `
 
