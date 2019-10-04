@@ -15,6 +15,9 @@ const StyledArticle = styled.article`
     max-width: 1300px;
     margin-top:20px;
     max-height:800px;
+    @media (max-width: 500px) {
+    height: 400px;
+  }
 `
 
 const StyledPhoto = styled.img`
