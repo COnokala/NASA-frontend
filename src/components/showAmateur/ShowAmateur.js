@@ -14,6 +14,9 @@ const StyledArticle = styled.article`
     margin: 53px auto;
     max-width: 1300px;
     margin-top:40px;
+    @media (max-width: 500px) {
+    height: 400px;
+  }
 `
 
 const StyledPhoto = styled.img`
@@ -22,6 +25,15 @@ const StyledPhoto = styled.img`
     margin: 10px;
     text-decoration: none;
     max-width: 800px;
+    @media (max-width: 950px) {
+    height: 275px;
+    width:275px;
+  }
+  @media (max-width: 500px) {
+    height: 200px;
+    width:200px;
+    margin-top:60px;
+  }
 `
 
 const StyledInfoSection = styled.section`
@@ -40,6 +52,12 @@ const StyledInfoSection = styled.section`
 const StyledInfoField = styled.span`
     color: rgba(253, 255, 122, 1);
     font-weight: bolder;
+    @media (max-width: 950px) {
+    font-size:20px;
+  }
+  @media (max-width: 500px) {
+    font-size:16px;
+  }
 `
 
 const StyledChangeKeys = styled.section`
@@ -51,6 +69,14 @@ const StyledChangeKeys = styled.section`
     padding: 3px;
     width: 250px;
     text-align: center;
+    @media (max-width: 950px) {
+    width: 125px;
+    font-size:12px;
+  }
+  @media (max-width: 500px) {
+    width:75px;
+    font-size:10px;
+  }
     &:hover{
         transform:scale(1.1);
         z-index:1;
