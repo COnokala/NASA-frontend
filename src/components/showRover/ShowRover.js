@@ -25,6 +25,10 @@ const StyledPhoto = styled.img`
     height: 275px;
     width:275px;
   }
+  @media (max-width: 500px) {
+    height: 200px;
+    width:200px;
+  }
 `
 
 const StyledInfoSection = styled.section`
